@@ -2,7 +2,7 @@ import requests
 import json
 session = requests.Session()
 session.auth = ('admin', '*******')
-url = 'https://10.20.64.94/wapi/v2.7/'
+url = 'https://*.*.*.*/wapi/v2.7/'
 session.verify = False
 ####GET Call to view something in infoblox#########
 """
